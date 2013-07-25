@@ -1,0 +1,32 @@
+
+html,body,.status{
+	width: 100%;
+	height:100%;
+}
+
+body{
+	font-family: Futura;
+	background: #EEE;
+	padding: 0;
+	margin:0;
+	overflow: hidden;
+}
+
+.status {
+	padding-top: 1px;
+	color:#EEE;
+	background: #911;
+	position: relative;
+}
+
+.status.flying {
+	background: green;
+}
+
+h1{
+	position: absolute;
+	font-size: 6em;
+	top:calc(50% - 1.5em);
+	width:100%;
+	text-align: center;
+}

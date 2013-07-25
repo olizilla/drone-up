@@ -1,0 +1,13 @@
+<head>
+  <title>drone-up</title>
+</head>
+
+<body>
+  {{> status}}
+</body>
+
+<template name="status">
+  <div class="status {{#if flying}}flying{{/if}}">
+    <h1>{{#if flying}}UP!{{else}}DOWN!{{/if}}<h1>
+  </div>
+</template>

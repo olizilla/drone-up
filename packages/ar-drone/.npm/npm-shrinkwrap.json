@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "ar-drone": {
+      "version": "0.1.0",
+      "dependencies": {
+        "buffy": {
+          "version": "0.0.4"
+        }
+      }
+    }
+  }
+}
